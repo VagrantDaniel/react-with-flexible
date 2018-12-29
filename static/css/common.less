@@ -1,0 +1,134 @@
+/**
+ * @fileOverview reset基础样式
+ */
+* {
+    webkit-tap-highlight-color: transparent;
+    touch-action: pan-y;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /*vertical-align: baseline; delete by jican*/
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:focus,a:hover,a:visited {
+    outline: 0;
+    text-decoration: none;
+}
+a:active,a:hover {
+    outline: 0;
+}
+div {
+    -webkit-tap-highlight-color: rgba(0 , 0, 0, 0);
+}
+
+input{
+    outline:none;
+    font-size: 14px;
+}
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+    -webkit-text-size-adjust: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 14px;
+    font-weight: normal;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+body {
+    -webkit-text-size-adjust:none;
+    font-size: 14px;
+    color: #333;
+    background: #f5f5f5;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,PingFang SC,Source Han Sans CN,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+img,table{
+    border:0
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+select {
+    -webkit-appearance:button;
+    border: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+@font-face {font-family: "iconfont";
+  src: url('../../assets/font/iconfont.eot?t=1545792428597'); /* IE9*/
+  src: url('../../assets/font/iconfont.eot?t=1545792428597#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAS4AAsAAAAAB8wAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFY9NkiyY21hcAAAAYAAAABLAAABcOfot+pnbHlmAAABzAAAAQgAAAHYO/Bm3mhlYWQAAALUAAAALwAAADYTsV1VaGhlYQAAAwQAAAAcAAAAJAfeA4NobXR4AAADIAAAAAgAAAAICAAAAGxvY2EAAAMoAAAABgAAAAYA7AAAbWF4cAAAAzAAAAAgAAAAIAEXALFuYW1lAAADUAAAAUUAAAJtPlT+fXBvc3QAAASYAAAAHQAAAC51inFreJxjYGRgYOBikGPQYWB0cfMJYeBgYGGAAJAMY05meiJQDMoDyrGAaQ4gZoOIAgCKIwNPAHicY2BkYWCcwMDKwMHUyXSGgYGhH0IzvmYwYuRgYGBiYGVmwAoC0lxTGByeHXh2gLnhfwNDDHMDQwNQmBEkBwD7JQ1jeJxjYGBgZWBgYAZiHSBmYWBgDGFgZAABP6AoI1icmYELLM7CoARWwwISf3bg/38YCeSzgEkGRjaGUcADJmWgPHBYQTADIwD+eQxpAHicfY5NSsNQFIXvScjLexgV09oGJVX6pB0kVJpf0qADEZw4clpw4BLcguAG3IF2Xc51DSH6XlJaKrWje7nnfOdc2iP6eTc/zUc6pHPK6YYe6Ime6YXe6IMWRDiALScYp9fI4wH6MhmNpbodD1AiyvLUmuAKSZbHUa/LAmX3NTK1h6Mk0yc5tf5GqF1qX7fXRGypCDBkuqIfq1u6JUAbdEBrwDdmQRUUhlGoMUPpdSrXAzxXj/qLiQt/bnNuz90jcMYswR0hmHmv/WEBFKGmSw10vBau73ZlGpc7UDTCil5Sjfqq6k/PQvB9Dt89YRyRUK844nadtYnUzvKH1rDqUHL1r/ILCGZSMHicY2BkYGAA4nYX73/x/DZfGbhZGEDghifPGgT9fxELA3MckMvBwAQSBQAYpgmHAHicY2BkYGBu+N/AEMPCAAJAkpEBFTABAEcIAmsEAAAABAAAAAAAAAAA7AAAAAEAAAACAKUACwAAAAAAAgAAAAoACgAAAP8AAAAAAAB4nGWPTU7DMBCFX/oHpBKqqGCH5AViASj9EatuWFRq911036ZOmyqJI8et1ANwHo7ACTgC3IA78EgnmzaWx9+8eWNPANzgBx6O3y33kT1cMjtyDRe4F65TfxBukF+Em2jjVbhF/U3YxzOmwm10YXmD17hi9oR3YQ8dfAjXcI1P4Tr1L+EG+Vu4iTv8CrfQ8erCPuZeV7iNRy/2x1YvnF6p5UHFockikzm/gple75KFrdLqnGtbxCZTg6BfSVOdaVvdU+zXQ+ciFVmTqgmrOkmMyq3Z6tAFG+fyUa8XiR6EJuVYY/62xgKOcQWFJQ6MMUIYZIjK6Og7VWb0r7FDwl57Vj3N53RbFNT/c4UBAvTPXFO6stJ5Ok+BPV8bUnV0K27LnpQ0kV7NSRKyQl7WtlRC6gE2ZVeOEXpc0Yk/KGdI/wAJWm7IAAAAeJxjYGKAAC4G7ICJkYmRmYGlpLIglYEBAAp7AdwAAAA=') format('woff'),
+  url('../../assets/font/iconfont.ttf?t=1545792428597') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../../assets/font/iconfont.svg?t=1545792428597#iconfont') format('svg'); /* iOS 4.1- */
+}
+// @font-face {font-family: "iconfont";
+//   src: url('../../assets/font/iconfont.eot'); /* IE9*/
+//   src: url('../../assets/font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//   url('../../assets/font/iconfont.woff') format('woff'), /* chrome, firefox */
+//   url('../../assets/font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+//   url('../../assets/font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+// }
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:42px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+}

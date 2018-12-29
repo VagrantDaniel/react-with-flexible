@@ -1,0 +1,363 @@
+:global {
+  .iconfont{
+    font-family:"iconfont" !important;
+    font-size:42px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+.font-dpr(@font-size){
+    font-size: @font-size;
+
+    [data-dpr="2"] & {
+        font-size: @font-size * 2;
+    }
+
+    [data-dpr="3"] & {
+        font-size: @font-size * 3;
+    }
+}
+  .App{
+    width: 100%;
+    height: 100%;
+    background: #d81140;
+    .conCont{
+      width: 100%;
+      height: 100%;
+      .navbar{
+        position: relative;
+        width: 100%;
+        height: 1.07rem;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        z-index: 99;
+        .navbarType{
+          display: block;
+          margin: .2rem .52rem .16rem .48rem;
+          color: #fff;
+        }
+        .navbarSearch{
+          width: 7.49rem;
+          height: 1.07rem;
+          display: flex;
+          align-items: center;
+          form{
+            height: .8rem;
+            input{
+              border: 0;
+              -webkit-border-radius: .67rem;
+              padding: 0 0.4rem 0 0.4rem;
+              width: 6rem;
+              height: .8rem;
+              line-height: 1.17rem;
+              background: rgba(255, 255, 255, 0.8);
+              color: #999;
+              -webkit-appearance: none;
+              .font-dpr(12px);
+            }
+          }
+        }
+        .btnLogin{
+          width: 1rem;
+          height: .93rem;
+          margin-right: .27rem;
+          line-height: .93rem;
+          text-align: center;
+          color: #fff;
+          .font-dpr(14px);
+        }
+      }
+      :global {
+        .swiperBox{
+          position: relative;
+          margin-top: -1.07rem;
+          width: 100%;
+          height: 4.8rem;
+          .swiper-slide{
+            width: 100%;
+            height: 100%;
+            .pic{
+              width: 100%;
+              height: 100%;
+              overflow: hidden;
+              img{
+                width: 100%;
+                height: 100%
+                // transition:all 0.4s;
+                // &:hover{
+                //   transform: scale(1.1);
+                // }
+              }
+            }
+          }
+          .egPagin{
+              position: absolute;
+              right: 15px;
+              bottom: 15px;
+              z-index: 10;
+              display: flex;
+              justify-content: center;
+              .swiper-pagination-bullet{
+                  float:left;
+                  font-size: 0;
+                  margin-right: 5px;
+                  width: .2rem;
+                  height: .2rem;
+                  border-radius: 50%;
+                  cursor: pointer;
+                  background-color: #fff;
+                  cursor: pointer;
+              }
+              .swiper-pagination-bullet-active{
+                  width: .4rem;
+                  border-radius: .27rem;
+                  background-color: #fff;
+              }
+          }
+        }
+      }
+      .enterList{
+        background: #fff;
+        padding-top: .27rem;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+          position: relative;
+          width: 2rem;
+          height: 1.6rem;
+          margin-bottom: .27rem;
+          display: flex;
+          justify-content: center;
+          cursor: pointer;
+          a{
+            width: 100%;
+            height: 100%;
+            img{
+              margin-left: .47rem;
+              width: 1.07rem;
+              height: 1.07rem;
+            }
+            :global{
+              .sTitle{
+                width: 100%;
+                height: .53rem;
+                line-height: .53rem;
+                text-align: center;
+                color: #333;
+                .font-dpr(14px);
+              }
+            }
+          }
+        }
+      }
+      .totiao{
+        width: 100%;
+        height: 1.47rem;
+        display: flex;
+        align-items: center;
+        background: #fff;
+        margin-top: -1px;
+        .logo{
+          width: .93rem;
+          height: .93rem;
+          padding: 0 .27rem;
+        }
+        :global {
+          .swiperBox1{
+            width: 100%;
+            height: 1.47rem;
+            .swiper-slide{
+              width: 100%;
+              height: .73rem;
+              li{
+                height: 100%;
+                line-height: .73rem;
+                display: flex;
+                cursor: pointer;
+                overflow: hidden;
+                &:hover{
+                  .text{
+                    color: #ff7d00;
+                  }
+                }
+                a{
+                  .tag{
+                    border:1px solid #f60;
+                    border-radius: .11rem;
+                    padding: 0 0.05rem;
+                    margin-right: .2rem;
+                    color: #f60;
+                  }
+                  .text{
+                    width: 9.2rem;
+                    height: .73rem;
+                    line-height: .73rem;
+                    .font-dpr(14px);
+                    text-overflow: ellipsis;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .beyondYear{
+        width: 100%;
+        .logo{
+          width: 100%;
+          height: 2.8rem;
+          a{
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+        .viewList{
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 10px;
+          width: 95%;
+          display: flex;
+          flex-wrap: wrap;
+          li{
+              width: 4.73rem;
+              height: 2rem;
+              // margin-right: 10px;
+              a{
+                img{
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+          }
+        }
+      }
+      .saleList{
+        width: 100%;
+        display: flex;
+        li{
+          position: relative;
+          width: 25%;
+          height: 4rem;
+          background-size: 100% 100%;
+          text-align: center;
+          a{
+            img.bc{
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            }
+            img.product{
+              position: relative;
+              width: 1.87rem;
+              height: 1.87rem;
+              margin: .2rem auto .47rem;
+            }
+            .sTitle,.subTitle{
+              position: relative;
+              width: 100%;
+              height: .4rem;
+              line-height: .4rem;
+              .font-dpr(12px);
+              color: #ac0303;
+              text-align: center;
+              text-overflow: ellipsis;
+              overflow: hidden;
+            }
+          }
+        }
+      }
+      // 猜你喜欢 begin
+      .view3{
+        .titbar{
+          width: 100%;
+          height: 1.07rem;
+          a{
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+        .cont{
+          width: 100%;
+          display: flex;
+          flex-flow: wrap;
+          background: #fff;
+          li{
+            width: 49.5%;
+            height: 6.85rem;
+            border-bottom: 2px solid #f2f2f2;
+            text-align: center;
+            padding-bottom: .2rem;
+            &:nth-child(odd){
+              border-right: 2px solid #f2f2f2;
+            }
+            a{
+              img{
+                position: relative;
+                width: 4.27rem;
+                height: 4.27rem;
+                margin-top: .4rem;
+              }
+              .sTitle{
+                position: relative;
+                height: .85rem;
+                line-height: .425rem;
+                text-shadow: collapse;
+                text-align: left;
+                overflow: hidden;
+                vertical-align: middle;
+                margin: auto .2rem;
+                .font-dpr(12px);
+                margin-bottom: .2rem;
+                i{
+                    display: inline-block;
+                    width: .8rem;
+                    height: .37rem;
+                    margin-right: .08rem;
+                    vertical-align: middle;
+                }
+              }
+              .info{
+                width:100%;
+                height: .43rem;
+                line-height: .43rem;
+                display: flex;
+                margin-bottom: .13rem;
+                margin-left: .2rem;
+                span{
+                  background: #f60;
+                  .font-dpr(12px);
+                  border-radius: 4px;
+                  color: #fff;
+                  padding: 0 .13rem;
+                  margin-right: .13rem;
+                }
+              }
+              .price{
+                width: 100%;
+                height: .56rem;
+                line-height: .56rem;
+                .font-dpr(16px);
+                color: #f40;
+                text-align: left;
+                margin-left: .2rem;
+              }
+            }
+          }
+        }
+      }
+      // 猜你喜欢 end
+    }
+  }
+// }
