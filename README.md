@@ -20,20 +20,19 @@
 
 ## 技术栈
 
-* React<br/><br/>
+* React
+
 > 1.classnames————合并class名，此处因为使用cssModules，所以为了合并local和普通css类名<br/>
 
 > 2.支持ES6语法，支持箭头函数<br/>
 
 > 3.px2rem————使用atom插件px2rem-plus对750px设计图进行px->rem的转换，如果你使用的不是atom，可以网上搜搜如何使用，sublime插件名叫px2rem<br/>
 
-> 4.支持less和sass预编译css语言，使用cssModules对类名修饰<br/>
+> 4.支持less和sass预编译css语言，使用cssModules对类名修饰<br/><br/><br/>
 
 
 
 * webpack
-
-
 
 > 1.使用webpack@3.11.0版本,webpack-dev-server@2.9.7，webpack-dev-server如果是3.x编译就会出错mmp......<br/>
 
@@ -66,15 +65,15 @@
         font-size: @font-size * 3;
     }
 }
-```
+```<br/><br/><br/>
 
 
 
-* swiper@4.4.6————最新版本
+* swiper@4.4.6————最新版本<br/><br/><br/>
 
 
 
-* iconfont————把阿里字体引入，使用unicode字符，支持修改颜色，给我这种不想自己ps图标的前端工程师开了一条捷径......
+* iconfont————把阿里字体引入，使用unicode字符，支持修改颜色，给我这种不想自己ps图标的前端工程师开了一条捷径......<br/><br/><br/>
 
 ## 使用方法
 
