@@ -32,10 +32,16 @@
 
 
 * webpack
-> 使用webpack@3.11.0版本,webpack-dev-server@2.9.7，webpack-dev-server如果是3.x编译就会出错mmp......
-> HtmlWebpackPlugin————用于生产html入口文件，只要用webpack都会用这个插件吧......
-> 支持热更新————HotModuleReplacementPlugin()
->> dev指令————package.json文件中webpack-dev-server --inline --progress --hot --config build/webpack.dev.conf.js
+> 1.使用webpack@3.11.0版本,webpack-dev-server@2.9.7，webpack-dev-server如果是3.x编译就会出错mmp......<br/>
+
+
+> 2.HtmlWebpackPlugin————用于生产html入口文件，只要用webpack都会用这个插件吧......<br/>
+
+
+> 3.支持热更新————HotModuleReplacementPlugin()<br/>
+
+
+>> dev指令————package.json文件中webpack-dev-server --inline --progress --hot --config build/webpack.dev.conf.js<br/>
 
 * lib-flexible
 > 在index.js入口文件头部引入————import 'lib-flexible'
