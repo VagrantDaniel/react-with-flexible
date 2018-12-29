@@ -44,9 +44,13 @@
 >> dev指令————package.json文件中webpack-dev-server --inline --progress --hot --config build/webpack.dev.conf.js<br/>
 
 * lib-flexible
-> 在index.js入口文件头部引入————import 'lib-flexible'
-> 基本所有样式都按照750px设计图写，使用px2rem插件转成rem
-> 字体单独定义
+
+> 在index.js入口文件头部引入————import 'lib-flexible'<br/>
+
+> 基本所有样式都按照750px设计图写，使用px2rem插件转成rem<br/>
+
+> 字体单独定义<br/>
+
 ```
 .font-dpr(@font-size){
     font-size: @font-size;
