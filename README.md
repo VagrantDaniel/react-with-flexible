@@ -43,7 +43,7 @@
 > 3.支持热更新————HotModuleReplacementPlugin()<br/>
 
 
->> dev指令————package.json文件中webpack-dev-server --inline --progress --hot --config build/webpack.dev.conf.js<br/>
+>> dev指令————package.json文件中webpack-dev-server --inline --progress --hot --config build/webpack.dev.conf.js<br/><br/><br/>
 
 * lib-flexible
 
