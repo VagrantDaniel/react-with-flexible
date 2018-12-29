@@ -35,6 +35,28 @@
 > 支持热更新————HotModuleReplacementPlugin()
 >> dev指令————package.json文件中webpack-dev-server --inline --progress --hot --config build/webpack.dev.conf.js
 
+* lib-flexible
+> 在index.js入口文件头部引入————import 'lib-flexible'
+> 基本所有样式都按照750px设计图写，使用px2rem插件转成rem
+> 字体单独定义
+```
+.font-dpr(@font-size){
+    font-size: @font-size;
+
+    [data-dpr="2"] & {
+        font-size: @font-size * 2;
+    }
+
+    [data-dpr="3"] & {
+        font-size: @font-size * 3;
+    }
+}
+```
+
+* swiper@4.4.6————最新版本
+
+* iconfont————把阿里字体引入，使用unicode字符，支持修改颜色，给我这种不想自己ps图标的前端工程师开了一条捷径......
+
 ## 使用方法
 
 * npm i
