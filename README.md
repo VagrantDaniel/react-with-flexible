@@ -21,6 +21,9 @@
 ## 技术栈
 
 * React
+
+
+
 > 1.classnames————合并class名，此处因为使用cssModules，所以为了合并local和普通css类名<br/>
 
 > 2.支持ES6语法，支持箭头函数<br/>
@@ -32,6 +35,9 @@
 
 
 * webpack
+
+
+
 > 1.使用webpack@3.11.0版本,webpack-dev-server@2.9.7，webpack-dev-server如果是3.x编译就会出错mmp......<br/>
 
 
