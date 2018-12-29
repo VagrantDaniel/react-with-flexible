@@ -20,10 +20,7 @@
 
 ## 技术栈
 
-* React
-<br/>
-<br/>
-<br/>
+* React<br/><br/>
 > 1.classnames————合并class名，此处因为使用cssModules，所以为了合并local和普通css类名<br/>
 
 > 2.支持ES6语法，支持箭头函数<br/>
