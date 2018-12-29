@@ -1,10 +1,13 @@
 ## 本项目是淘宝弹性布局方案lib-flexible在react框架中的实践，因为本人使用react较多，并且搜索网上虽然有教学flexible如何使用，但是并没有一个完整地运用项目，所以准备自己做一个，加深对手机适配方案的探究
 > 项目模仿**苏宁易购**的移动端页面，它本身是基于media query的，所以没有copy，原创！！！
 
+## 项目截图
+![项目截图](https://github.com/OnPure/react-with-flexible/blob/master/static/images/GIF.gif)
+
 ## 项目结构
 > 本项目是基于create-react-app框架自己一步步搭建出来的，踩了很多坑，最多的就是版本不一致导致的编译错误，还找不到原因，mmp......
 
-![普通进度条](https://github.com/OnPure/react-with-flexible/blob/master/static/images/structor.png)
+![项目结构](https://github.com/OnPure/react-with-flexible/blob/master/static/images/structor.png)
 > assets————存放字体<br/>
 > build————webpack.base.conf.js、webpack.dev.conf.js、webpack.prod.conf.js<br/>
 > dist————编译输出目录<br/>
