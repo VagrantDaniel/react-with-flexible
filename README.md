@@ -1,5 +1,5 @@
 ## 本项目是淘宝弹性布局方案lib-flexible在react框架中的实践，因为本人使用react较多，并且搜索网上虽然有教学flexible如何使用，但是并没有一个完整地运用项目，所以准备自己做一个，加深对手机适配方案的探究
-> 项目使用苏宁易购的移动端页面，他本身是基于media query的，所以没有copy，原创！！！
+> 项目模仿苏宁易购的移动端页面，它本身是基于media query的，所以没有copy，原创！！！
 
 ## 项目结构
 > 本项目是基于create-react-app框架自己一步步搭建出来的，踩了很多坑，最多的就是版本不一致导致的编译错误，还找不到原因，mmp......
@@ -25,7 +25,7 @@
 
 > 2.支持ES6语法，支持箭头函数<br/>
 
-> 3.px2rem————使用atompx2rem-plus对750px设计图进行px->rem的转换，如果你使用的不是atom，可以网上搜搜如何使用，sublime插件名叫px2rem<br/>
+> 3.px2rem————使用atom插件px2rem-plus对750px设计图进行px->rem的转换，如果你使用的不是atom，可以网上搜搜如何使用，sublime插件名叫px2rem<br/>
 
 > 4.支持less和sass预编译css语言，使用cssModules对类名修饰<br/>
 
