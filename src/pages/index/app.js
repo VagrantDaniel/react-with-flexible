@@ -263,7 +263,7 @@ class App extends Component {
                 })
               }
             </div>
-            <div className={index.egPagin}></div>
+            <div className="egPagin"></div>
           </div>
           {/*焦点图 end*/}
           {/*分类 begin*/}
