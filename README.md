@@ -29,6 +29,8 @@
 
 > 4.支持less和sass预编译css语言，使用cssModules对类名修饰<br/>
 
+
+
 * webpack
 > 使用webpack@3.11.0版本,webpack-dev-server@2.9.7，webpack-dev-server如果是3.x编译就会出错mmp......
 > HtmlWebpackPlugin————用于生产html入口文件，只要用webpack都会用这个插件吧......
@@ -53,7 +55,11 @@
 }
 ```
 
+
+
 * swiper@4.4.6————最新版本
+
+
 
 * iconfont————把阿里字体引入，使用unicode字符，支持修改颜色，给我这种不想自己ps图标的前端工程师开了一条捷径......
 
@@ -66,3 +72,5 @@
 * npm run dev
 
 * 大功告成
+
+> 最终说一下，这篇文章都是我一个一个字打出来的，如果你路过觉得我写的不错，或者使用了我的项目结构，留个star吧！！！
